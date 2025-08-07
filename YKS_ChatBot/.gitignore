@@ -1,0 +1,22 @@
+# /yks_buddy_projesi/.gitignore
+
+# Python'un otomatik oluşturduğu dosyalar
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Sanal ortam klasörleri (venv, .venv vb.)
+venv/
+.venv/
+env/
+.env/
+
+# Hassas ortam değişkenleri dosyası
+# Bu dosya ASLA GİTHUB'A GÖNDERİLMEMELİDİR!
+.env
+
+# IDE ve işletim sistemi dosyaları
+.idea/
+.vscode/
+*.DS_Store
